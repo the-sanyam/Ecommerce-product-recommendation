@@ -3,22 +3,25 @@
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue)
 ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-0.24.2-blue)
 
-This repository contains an E-commerce Product Recommendation project that utilizes Collaborative Filtering techniques to recommend shoes products from the "Amazon UK shoes product reviews dataset". Collaborative Filtering is a popular approach in recommendation systems, which predicts users' interests by collecting preferences or information from many users.
+## Project Overview
+
+This repository contains an E-commerce Product Recommendation project that utilizes recommendation techniques to recommend shoes products from the "Amazon UK shoes product reviews dataset". Recommendation systems are essential tools in today's digital landscape, guiding users to personalized content and products. This project explores and implements various recommendation approaches to enhance user experiences in e-commerce, including content-based filtering, memory-based collaborative filtering, and model-based collaborative filtering.
 
 ## Dataset
 
 The dataset used in this project is the "Amazon UK shoes product reviews dataset". It contains a collection of customer reviews and ratings for shoes products available on Amazon UK. The dataset provides valuable insights into customers' preferences and opinions about different shoes products.
 
-## Project Overview
+### Content-Based Filtering
 
-The goal of this project is to build a recommendation system that suggests shoes products to users based on their past preferences and behavior. Collaborative Filtering is employed to identify similar users or items based on their ratings and recommend shoes products that have been positively rated by similar users.
+Content-based filtering recommends products based on their textual attributes, such as product names, descriptions, and user reviews. It offers personalized recommendations by matching the content of products with a user's preferences.
 
-## Dependencies
+### Memory-Based Collaborative Filtering
 
-The following dependencies are required to run the project:
+Memory-based collaborative filtering checks user-user similarity and recommends items based on the preferences or behaviors of similar users. It provides user-centric suggestions using similarity metrics like Pearson correlation and cosine similarity.
 
-- Python 3.7 or above
-- Scikit-learn 0.24.2
+### Model-Based Collaborative Filtering
+
+Model-based collaborative filtering employs matrix factorization techniques, such as Singular Value Decomposition (SVD), to identify latent patterns in user-item interactions. It offers highly personalized product recommendations based on correlations between items.
 
 ## Contact
 
